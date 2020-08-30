@@ -25,6 +25,7 @@ public class Controller {
         Result result = searchDiaparter.search(requestPara);
 
         System.out.println("一共耗时："+(System.currentTimeMillis()-t1)+"毫秒");
+
         return result;
     }
 }
